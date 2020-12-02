@@ -16,6 +16,7 @@ namespace CodeFirstUniversity.Models
         [StringLength(50)]
         [Display(Name = "Office Location")]
         public string Location { get; set; }
+        public bool? Enabled { get; set; }
 
         public virtual Instructor Instructor { get; set; }
     }
